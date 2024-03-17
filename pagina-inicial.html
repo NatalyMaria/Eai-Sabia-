@@ -1,0 +1,45 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você Sabia? - Página Inicial</title>
+    <meta name="description" content="Explore fatos interessantes e aleatórios sobre diversos temas na página inicial do Você Sabia.">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pagina-inicial.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./icon.png" alt="Sua Logo">
+            </div>
+            <a href="" class="logo"><strong>E AÍ, SABIA?</strong></a>
+            <ul class="navmenu">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><strong>SAIR</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="header-section">
+        <h1>Bem-vindo ao Você Sabia?</span></h1>
+        <p>Explore fatos interessantes e aleatórios sobre diversos temas!</p>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="fatos">
+                <p id="paragrafofato">Pressione o botão abaixo e surpreenda-se (ou não).</p>
+                <button onclick="getRandomFact()" id="btn" class="btn"><strong>Gerar Fato Aleatório</strong></button>
+                <p class="lingua">Caso não entenda a língua inglesa, procure a função de tradução do seu navegador e traduza para a língua que preferir.</p>
+            </div>
+              </div>
+    </main>
+    <footer style="margin-top: 50px;">Todos os direitos reservados &copy;</footer>
+    <script src="./app.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
